@@ -25,6 +25,21 @@ The application uses a Django REST Framework backend for file processing and dat
 - Frontend: https://ai-regex-pattern-matching-and-repla.vercel.app
 - Backend API: https://ai-regex-backend.onrender.com/api
 
+## Demo Flow
+
+1. Upload an Excel file.
+2. Confirm that the data appears in the preview table.
+3. Enter a natural language request:
+
+```text
+Replace Ethan with Siheng in the NAME and EMAIL columns.
+```
+
+4. Apply the replacement.
+5. Confirm the updated data in the preview table.
+6. Use Undo and Redo.
+7. Download the processed file.
+
 ## Tech Stack
 
 ### Backend
@@ -433,18 +448,3 @@ Output directory:
 ```text
 dist
 ```
-
-## Demo Flow
-
-1. Upload an Excel file.
-2. Confirm that the data appears in the preview table.
-3. Enter a natural language request:
-
-```text
-Replace Ethan with Siheng in the NAME and EMAIL columns.
-```
-
-4. Apply the replacement.
-5. Confirm the updated data in the preview table.
-6. Use Undo and Redo.
-7. Download the processed file.

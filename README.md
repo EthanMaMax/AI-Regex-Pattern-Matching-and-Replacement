@@ -20,6 +20,11 @@ The application uses a Django REST Framework backend for file processing and dat
 - Handle invalid files, empty files, invalid regex, missing columns, and OpenAI errors.
 - Store uploaded datasets temporarily and clean them after use.
 
+## Live Demo
+
+- Frontend: https://ai-regex-pattern-matching-and-repla.vercel.app
+- Backend API: https://ai-regex-backend.onrender.com/api
+
 ## Tech Stack
 
 ### Backend
@@ -396,12 +401,25 @@ DJANGO_ALLOWED_HOSTS=your-render-service.onrender.com
 CORS_ALLOWED_ORIGINS=https://your-vercel-app.vercel.app
 ```
 
+For the current deployment:
+
+```env
+DJANGO_ALLOWED_HOSTS=ai-regex-backend.onrender.com
+CORS_ALLOWED_ORIGINS=https://ai-regex-pattern-matching-and-repla.vercel.app
+```
+
 ### Frontend on Vercel
 
 Set this environment variable in Vercel:
 
 ```env
 VITE_API_BASE_URL=https://your-render-backend-url/api
+```
+
+For the current deployment:
+
+```env
+VITE_API_BASE_URL=https://ai-regex-backend.onrender.com/api
 ```
 
 Build command:

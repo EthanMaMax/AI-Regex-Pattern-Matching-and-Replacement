@@ -166,7 +166,7 @@ function App() {
               Pattern matching and replacement
             </h1>
             <p className="max-w-2xl text-sm leading-6 text-zinc-600">
-              Upload a CSV or Excel file, describe the transformation in plain English, preview the updated data, and download the processed CSV.
+              Upload a CSV or Excel file, describe the transformation in plain English, preview the updated data, and download the processed file.
             </p>
           </section>
 

@@ -22,8 +22,9 @@ The application uses a Django REST Framework backend for file processing and dat
 
 ## Live Demo
 
-- Frontend: https://ai-regex-pattern-matching-and-repla.vercel.app
-- Backend API: https://ai-regex-backend.onrender.com/api
+- Web App: https://ai-regex-pattern-matching-and-repla.vercel.app
+- Backend API: https://ai-regex-backend.onrender.com/api  
+  This API URL is used by the frontend and is provided for reference only.
 
 ## Demo Video
 
